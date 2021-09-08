@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/doorkeeper-gem/doorkeeper.git
+  revision: 47037da4def738e4cfd930bd433f35629a5869f6
+  branch: main
+  specs:
+    doorkeeper (5.5.2)
+      railties (>= 5)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -79,8 +87,6 @@ GEM
       responders
       warden (~> 1.2.3)
     diff-lcs (1.4.4)
-    doorkeeper (5.5.2)
-      railties (>= 5)
     erubi (1.10.0)
     execjs (2.7.0)
     factory_bot (6.2.0)
@@ -247,7 +253,7 @@ DEPENDENCIES
   coderay
   database_cleaner
   devise (~> 4.8)
-  doorkeeper (~> 5.5.2)
+  doorkeeper!
   factory_bot_rails
   faker
   jquery-rails
@@ -269,4 +275,4 @@ RUBY VERSION
    ruby 2.6.5p114
 
 BUNDLED WITH
-   2.1.4
+   2.2.27
