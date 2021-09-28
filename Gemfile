@@ -5,7 +5,7 @@ source "http://rubygems.org"
 ruby "2.6.5"
 
 gem "rails", "~> 6.1"
-gem "doorkeeper", "~> 5.5.2"
+gem "doorkeeper", git: 'https://github.com/danielsbird/doorkeeper.git', branch: 'optional-redirect-uri'
 gem "devise", "~> 4.8"
 
 gem "faker"
