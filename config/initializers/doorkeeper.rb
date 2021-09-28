@@ -298,6 +298,8 @@ Doorkeeper.configure do
   #   client.superapp? or resource_owner.admin?
   # end
 
+  redirect_uri_optional_during_authorization true
+
   # WWW-Authenticate Realm (default "Doorkeeper").
   #
   # realm "Doorkeeper"
